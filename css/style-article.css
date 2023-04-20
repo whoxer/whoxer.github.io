@@ -1,15 +1,23 @@
 body {
     /* Fonte principal */
     font-family: 'Ubuntu', sans-serif; 
-    text-align: center;
     /*
        Mas fica a teu critério adicionar mais ou usar a mesma.
     */
 }
+
+header {
+    text-align: center;
+}
+
 li {
     margin-top: 2%;
     list-style: none;
 }
 a {
     text-decoration: none;
+}
+
+h5 {
+    font-style: italic;
 }
