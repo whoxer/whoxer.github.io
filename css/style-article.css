@@ -1,9 +1,5 @@
 body {
-    /* Fonte principal */
     font-family: 'Ubuntu', sans-serif; 
-    /*
-       Mas fica a teu critério adicionar mais ou usar a mesma.
-    */
 }
 
 header {
@@ -20,4 +16,7 @@ a {
 
 h5 {
     font-style: italic;
+}
+h1 {
+    color: black;
 }

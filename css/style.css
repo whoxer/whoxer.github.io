@@ -1,10 +1,6 @@
 body {
-    /* Fonte principal */
     font-family: 'Ubuntu', sans-serif; 
     text-align: center;
-    /*
-       Mas fica a teu critério adicionar mais ou usar a mesma.
-    */
 }
 li {
     margin-top: 2%;
