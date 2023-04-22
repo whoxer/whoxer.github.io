@@ -1,0 +1,22 @@
+body {
+    font-family: 'Ubuntu', sans-serif; 
+
+}
+li {
+    margin-top: 2%;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h5 {
+    font-style: italic;
+}
+header {
+    text-align: center;
+}
+p.cansaço {
+    color: grey;
+    text-align: end;
+    font-size: larger;
+}
