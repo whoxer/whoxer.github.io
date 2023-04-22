@@ -20,3 +20,9 @@ p.cansaço {
     text-align: end;
     font-size: larger;
 }
+p.insonia {
+    color: rgb(58, 18, 0);
+    text-align: left;
+    font-size: 200%;
+    margin-left: 4%;     
+}
