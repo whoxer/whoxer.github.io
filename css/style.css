@@ -9,3 +9,10 @@ li {
 a {
     text-decoration: none;
 }
+a.more {
+    color: darkslategray;
+}
+
+h1 {
+    color: black;
+}
