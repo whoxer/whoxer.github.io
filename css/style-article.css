@@ -1,5 +1,6 @@
 body {
     font-family: 'Ubuntu', sans-serif; 
+    background-color: rgb(19, 18, 18);
 }
 
 header {
@@ -12,11 +13,35 @@ li {
 }
 a {
     text-decoration: none;
+    padding: 0;
+    color: black;
+    background-color: white;
+}
+
+hr {
+    color: white;
 }
 
 h5 {
+    color: white;
     font-style: italic;
 }
 h1 {
-    color: black;
+    color: white;
+}
+h2 {
+    color: white;
+}
+ul.cabeçalho li {
+    display: inline-block;
+    padding-right: 6px;
+}
+p {
+    color: white;
+}
+h4 {
+    color: white;
+}
+h3 {
+    color: white;
 }

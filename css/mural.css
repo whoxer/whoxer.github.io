@@ -1,6 +1,16 @@
 body {
     font-family: 'Ubuntu', sans-serif; 
-
+    background-color: rgb(19, 18, 18);
+}
+h1 {
+    color: white;
+}
+ul.cabeçalho li {
+    display: inline-block;
+    padding-right: 6px;
+}
+hr {
+    color: white;
 }
 li {
     margin-top: 2%;
@@ -8,6 +18,9 @@ li {
 }
 a {
     text-decoration: none;
+    padding: 0;
+    color: black;
+    background-color: white;
 }
 h5 {
     font-style: italic;
@@ -48,5 +61,5 @@ p.recomeço {
     color: chocolate;
     text-align: center;
     margin-left: 5%;
-    font-size: 500%;
+    font-size: 400%;
 }
