@@ -42,24 +42,36 @@ p.insonia {
 p.descompromisso {
     color: black;
     text-align: center;
-    font-size: 100%;
+    font-size: 50%;
     margin-right: 5%;
 }
 p.raiva {
     color: brown;
     text-align: end;
     margin-right: 20%;
-    font-size: 100%;
+    font-size: 70%;
 }
 p.tristeza {
     color: crimson;
     text-align: justify;
     margin-left: 20%;
-    font-size: 300%;
+    font-size: 100%;
 }
 p.recomeço {
     color: chocolate;
     text-align: center;
     margin-left: 5%;
+    font-size: 250%;
+}
+p.alegria {
+    color: yellow;
+    text-align: end;
+    margin-left: 5%;
     font-size: 400%;
+}
+p.realização {
+    color: blue;
+    text-align: center;
+    margin-left: 5%;
+    font-size: 300%;
 }
