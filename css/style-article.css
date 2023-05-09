@@ -1,6 +1,7 @@
 body {
     font-family: 'Ubuntu', sans-serif; 
     background-color: rgb(19, 18, 18);
+    padding: 0;
 }
 
 header {
@@ -30,7 +31,9 @@ h1 {
     color: white;
 }
 h2 {
-    color: white;
+    color: black;
+    background-color: white;
+    font-weight: bolder;
 }
 ul.cabeçalho li {
     display: inline-block;
@@ -40,8 +43,10 @@ p {
     color: white;
 }
 h4 {
-    color: white;
+    color: black;
+    background-color: white;
 }
 h3 {
-    color: white;
+    color: black;
+    background-color: white;
 }
