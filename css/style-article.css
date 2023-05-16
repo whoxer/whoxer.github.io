@@ -8,6 +8,10 @@ header {
     text-align: center;
 }
 
+italic {
+    font-style: italic;
+}
+
 li {
     margin-top: 2%;
     list-style: none;
@@ -31,8 +35,7 @@ h1 {
     color: white;
 }
 h2 {
-    color: black;
-    background-color: white;
+    color: whitesmoke;
     font-weight: bolder;
 }
 ul.cabeçalho li {
@@ -43,10 +46,11 @@ p {
     color: white;
 }
 h4 {
-    color: black;
-    background-color: white;
+    color: white;
 }
 h3 {
-    color: black;
-    background-color: white;
+    color: white;
+}
+summary {
+    color: white;
 }
