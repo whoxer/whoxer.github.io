@@ -1,4 +1,4 @@
-# Um blog.
+# whoxer.github.io
 
-Aqui vou escrever meus pensamentos, posicionamentos, provavelmente desabafos.
+Meu site pessoal. Aqui vou escrever meus pensamentos, posicionamentos políticos, e prováveis desabafos.
 Quando não saber sobre o que escrever, não escreverei e vice-versa.
