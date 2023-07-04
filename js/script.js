@@ -11,28 +11,3 @@ function show_header() {
     "<nav>" + "<ul class='cabeçalho'>" + home + mstd + gith + "</ul>" +
     "</nav>" + header_c + hr;
 }
-
-
-
-
-
-
-
-/* 
-
-
-    document.write(
-        hr,
-        "<h1>whoxer</h1>",
-        header_o,
-        "<nav>",
-        "<ul>",
-        home,
-        mstd,
-        gith,
-        "</ul>",
-        "</nav>",
-        header_c,
-        hr
-    );
-*/ 
