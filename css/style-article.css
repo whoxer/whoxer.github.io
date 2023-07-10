@@ -1,56 +1,79 @@
+/* estilo padrão para todo site */
 body {
-    font-family: 'Ubuntu', sans-serif; 
-    background-color: rgb(19, 18, 18);
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
     padding: 0;
+    color: white;
 }
-
-header {
+/* cabeçalho padrão para todo o site */
+.header-blog {
+    padding-top: 1%;    
+    margin-top: 0.5%;
+    text-align: left;
+}
+.title-h {
+    user-select: none;
+    text-align: auto;
+}
+.ico-page {
+    user-select: none;
+    display: inline;
+    float: inline-start;
+    margin-right: 1%;
+}
+.icon-alien {
+    border-radius: 20%;
+}
+.title {
+    text-align: left;
+    margin: 2%;
+}
+.menu {
     text-align: center;
+    margin: 1%;
+    padding: 1%;
 }
-
-italic {
-    font-style: italic;
-}
-
-li {
-    margin-top: 2%;
+.menu-opt {
     list-style: none;
 }
-a {
-    text-decoration: none;
+.li-opt {
+    display: inline;
     padding: 0;
+    margin: 0;
+}
+/* fim do estilo do cabeçalho */
+
+/* links */
+.opt {
+    text-decoration: none;
     color: black;
     background-color: white;
+    border-radius: 5%;
+}
+.opt:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5%;
 }
 
-hr {
-    color: white;
+/* para os artigos */
+.article-body {
+    justify-content: left;
+    padding: 2%;
+    margin: 2%;
 }
-
-h5 {
-    color: white;
-    font-style: italic;
+.recomendation {
+    padding: 1%;
+    margin: 1%;
 }
-h1 {
-    color: white;
+.read-more {
+    padding: 1%;
+    margin: 1%;
 }
-h2 {
-    color: whitesmoke;
-    font-weight: bolder;
-}
-ul.cabeçalho li {
-    display: inline-block;
-    padding-right: 6px;
-}
-p {
-    color: white;
-}
-h4 {
-    color: white;
-}
-h3 {
-    color: white;
-}
-summary {
-    color: white;
+.li-more-opt {
+    padding: 1%;
+    margin: 1%;
+    list-style: none;
 }
