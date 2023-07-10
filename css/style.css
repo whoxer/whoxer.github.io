@@ -1,44 +1,85 @@
 body {
-    font-family: 'Ubuntu', sans-serif; 
-    text-align: center;
-    background-color: rgb(19, 18, 18);
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    color: white;
 }
-li {
-    margin-top: 2%;
+.header-blog {
+    padding-top: 1%;    
+    margin-top: 0.5%;
+    text-align: left;
+    background-color: rgb(20, 20, 20);
+}
+.title-h {
+    user-select: none;
+    text-align: auto;
+}
+.ico-page {
+    user-select: none;
+    display: inline;
+    float: inline-start;
+    margin-right: 1%;
+}
+.icon-alien {
+    border-radius: 20%;
+}
+.title {
+    text-align: left;
+    margin: 2%;
+}
+.menu {
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+}
+.menu-opt {
     list-style: none;
 }
-a {
+.opt {
     text-decoration: none;
-    padding: 0;
     color: black;
     background-color: white;
+    border-radius: 5%;
 }
-a.more {
-    color: rgb(56, 53, 53);
-}
-
-h1 {
+.opt:hover {
+    text-decoration: none;
     color: white;
+    background-color: black;
+    border-radius: 5%;
+}
+.li-opt {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+.recent-articles {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.posts-list {
+    list-style: none;
+    justify-content: left;
+    padding: 2%;
+    margin: 2%;
+}
+.post {
+    text-decoration: none;
+    margin: 2%;
+    padding: 2%;
 }
 
-hr {
-    color: white;
-}
+/* mexer nisso depois */
 
-h3 {
-    color: white;
-}
-
-ul.cabeçalho li {
-    display: inline-block;
-    padding-right: 6px;
-}
-footer.rodapé p {
+/* .footer {
     position: absolute;
-    bottom: 0;
-    color: #FFF;
-    width: 100%;
-    height: 70px;    
     text-align: center;
-    line-height: 100px;
+    justify-content: center;
+    padding: 1%;
+    bottom: 0;
+    left: 45%;
 }
+.footer-author {
+    color: white;
+} */
