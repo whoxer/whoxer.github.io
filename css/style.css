@@ -37,6 +37,18 @@ body {
 .menu-opt {
     list-style: none;
 }
+.opt {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 5%;
+}
+.opt:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5%;
+}
 .li-opt {
     display: inline;
     padding: 0;
@@ -59,6 +71,7 @@ body {
 }
 
 /* trabalhar nisso depois */
+
 /* .opt::selection {
     text-decoration: none;
     color: white;
@@ -83,17 +96,7 @@ body {
     margin: 2%;
     padding: 2%;
 }
-
-/* mexer nisso depois */
-
-/* .footer {
-    position: absolute;
-    text-align: center;
-    justify-content: center;
-    padding: 1%;
-    bottom: 0;
-    left: 45%;
+.more {
+    margin: 2%;
+    padding: 2%;
 }
-.footer-author {
-    color: white;
-} */
