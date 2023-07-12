@@ -37,6 +37,14 @@ body {
 .menu-opt {
     list-style: none;
 }
+.li-opt {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+/* fim do estilo do cabeçalho */
+
+/* links */
 .opt {
     text-decoration: none;
     color: black;
@@ -49,13 +57,14 @@ body {
     background-color: black;
     border-radius: 5%;
 }
-.li-opt {
-    display: inline;
-    padding: 0;
-    margin: 0;
-}
-/* fim do estilo do cabeçalho */
 
+/* trabalhar nisso depois */
+/* .opt::selection {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5%;
+} */
 
 /* estilo dos artigos mostrados no início da página */
 .recent-articles {
