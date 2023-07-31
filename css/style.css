@@ -50,7 +50,7 @@ body {
     border-radius: 5%;
 }
 .li-opt {
-    display: inline;
+    display: inline-block;
     padding: 0;
     margin: 0;
 }
@@ -69,6 +69,29 @@ body {
     background-color: black;
     border-radius: 5%;
 }
+
+/* botão dropdown */
+.droplist {
+    display: none;
+    list-style: none;
+}
+.dropli-opt {
+    padding: 0;
+    margin-top: 10%;
+}
+.dropdown:hover .droplist {
+    padding: 0;
+    margin-top: 0;
+    display: list-item;
+    position: absolute;
+    text-align: left;
+}
+.dropdown::selection {
+    background-color: black;
+    color: white;
+}
+/* meu deus como eu odeio css */
+
 
 /* trabalhar nisso depois */
 
@@ -92,9 +115,19 @@ body {
     margin: 2%;
 }
 .post {
-    text-decoration: none;
-    margin: 2%;
-    padding: 2%;
+    outline-style: outset;
+    outline-color: white;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    padding: 3%;
+    border-radius:5%;
+    user-select: none;
+}
+.tag {
+    margin: 1;
+    padding: 1;
 }
 .more {
     margin: 2%;
