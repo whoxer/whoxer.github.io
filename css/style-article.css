@@ -58,6 +58,26 @@ body {
     border-radius: 5%;
 }
 
+/* botão dropdown */
+/* .droplist {
+    display: none;
+    list-style: none;
+}
+.dropli-opt {
+    padding: 0;
+    margin-top: 10%;
+}
+.dropdown:hover .droplist {
+    padding: 0;
+    margin-top: 0;
+    display: list-item;
+    position: absolute;
+}
+.dropdown::selection {
+    background-color: black;
+    color: white;
+} */
+
 /* para os artigos */
 .article-body {
     justify-content: left;
