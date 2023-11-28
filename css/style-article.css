@@ -8,6 +8,7 @@ body {
 }
 /* cabeçalho padrão para todo o site */
 .header-blog {
+    user-select: none;
     padding-top: 1%;    
     margin-top: 0.5%;
     text-align: left;
