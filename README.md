@@ -1,12 +1,13 @@
 # whoxer.github.io
 
-Site pessoal para mim postar coisas.
+Meu site pessoal aonde posto coisas relacionadas a política, filosofia e tecnologia em geral. Eu também posto alguns poemas, é bem legal.
 
 ### Tópicos do site
 
 * [Política](https://github.com/whoxer/whoxer.github.io/tree/main/politica)
 * [Tecnologia](https://github.com/whoxer/whoxer.github.io/tree/main/tecnologia)
 * [Produtividade](https://github.com/whoxer/whoxer.github.io/tree/main/produtividade)
+* [Poemas](https://github.com/whoxer/whoxer.github.io/tree/main/poema)
 
 ## Motivações
 
