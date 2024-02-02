@@ -1,69 +1,91 @@
+/* fonte */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
 /* estilo padrão para todo site */
+
 body {
     background-color: black;
     user-select: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
     color: white;
 }
+
+
 /* cabeçalho padrão para todo o site */
+
 .header-blog {
-    padding-top: 1%;    
+    padding-top: 1%;
     margin-top: 0.5%;
     text-align: left;
 }
+
 .title-h {
     user-select: none;
     text-align: auto;
 }
+
 .ico-page {
     user-select: none;
     display: inline;
     float: inline-start;
     margin-right: 1%;
 }
+
 .icon-alien {
     border-radius: 20%;
 }
+
 .title {
     text-align: left;
     margin: 2%;
 }
+
 .menu {
     text-align: center;
     margin: 1%;
     padding: 1%;
 }
+
 .menu-opt {
     list-style: none;
 }
+
 .opt {
     text-decoration: none;
     color: black;
     background-color: white;
     border-radius: 5%;
 }
+
 .opt:hover {
     text-decoration: none;
     color: white;
     background-color: black;
     border-radius: 5%;
 }
+
 .li-opt {
     display: inline-block;
     padding: 0;
     margin: 0;
 }
+
+
 /* fim do estilo do cabeçalho */
 
+
 /* links */
+
 .opt {
     text-decoration: none;
     color: black;
     background-color: white;
     border-radius: 5%;
 }
+
 .opt:hover {
     text-decoration: none;
     color: white;
@@ -71,15 +93,19 @@ body {
     border-radius: 5%;
 }
 
+
 /* botão dropdown */
+
 .droplist {
     display: none;
     list-style: none;
 }
+
 .dropli-opt {
     padding: 0;
     margin-top: 10%;
 }
+
 .dropdown:hover .droplist {
     padding: 0;
     margin-top: 0;
@@ -87,14 +113,18 @@ body {
     position: absolute;
     text-align: left;
 }
+
 .dropdown::selection {
     background-color: black;
     color: white;
 }
+
+
 /* meu deus como eu odeio css */
 
 
 /* trabalhar nisso depois */
+
 
 /* .opt::selection {
     text-decoration: none;
@@ -103,18 +133,22 @@ body {
     border-radius: 5%;
 } */
 
+
 /* estilo dos artigos mostrados no início da página */
+
 .recent-articles {
     text-align: left;
     margin: 0;
     padding: 0;
 }
+
 .posts-list {
     list-style: none;
     justify-content: left;
     padding: 2%;
     margin: 2%;
 }
+
 .post {
     outline-style: outset;
     outline-color: white;
@@ -123,13 +157,15 @@ body {
     margin-right: 2%;
     margin-top: 2%;
     padding: 3%;
-    border-radius:5%;
+    border-radius: 5%;
     user-select: none;
 }
+
 .tag {
     margin: 1;
     padding: 1;
 }
+
 .more {
     margin: 2%;
     padding: 2%;
