@@ -72,8 +72,8 @@ body {
         margin: 2%;
     }
     .recomendation {
-        padding: 1%;
-        margin: 1%;
+        padding: 0;
+        margin: 0;
     }
     .read-more {
         padding: 1%;
@@ -148,10 +148,8 @@ body {
         margin-right: 10%;
     }
     .recomendation {
-        padding-right: 5%;
-        padding-left: 5%;
-        margin-left: 10%;
-        margin-right: 10%;
+        padding: 0;
+        margin: 0;
     }
     .read-more {
         padding-right: 5%;
@@ -228,10 +226,8 @@ body {
         margin-right: 10%;
     }
     .recomendation {
-        padding-right: 6%;
-        padding-left: 6%;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin: 0;
+        padding: 0;
     }
     .read-more {
         padding-right: 6%;
