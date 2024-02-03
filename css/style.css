@@ -94,7 +94,7 @@ body {
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
-    /* cabeçalho para site mobile*/
+    /* cabeçalho para site mobile (tablet)*/
     .header-blog {
         padding-top: 0.5%;
         margin-top: 0.1%;
