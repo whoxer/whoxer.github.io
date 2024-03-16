@@ -16,7 +16,7 @@ body {
 
 /* mobile */
 
-@media screen and (max-width: 600px) and (min-width: 400px) {
+@media screen and (max-width: 650px) and (min-width: 400px) {
     /* cabeçalho para site mobile*/
     .header-blog {
         padding-top: 1%;

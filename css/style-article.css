@@ -15,7 +15,7 @@ body {
 
 /* mobile */
 
-@media screen and (max-width: 600px) and (min-width: 400px) {
+@media screen and (max-width: 650px) and (min-width: 400px) {
     .header-blog {
         user-select: none;
         padding-top: 1%;
