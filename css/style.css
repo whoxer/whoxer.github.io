@@ -4,7 +4,7 @@
 
 /* para todo o site (embora talvez eu ache que isso não deva ser tão seguro) */
 
-body {
+* {
     background-color: black;
     user-select: none;
     font-family: 'Roboto Mono', monospace;
@@ -102,6 +102,10 @@ body {
         display: flex;
         font-size: unset;
     }
+    .artpost {
+        text-align: left;
+        font-size: 2.5mm;
+    }
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
@@ -184,6 +188,10 @@ body {
     }
     .artright pre {
         display: none;
+    }
+    .artpost pre {
+        text-align: center;
+        float: initial;
     }
 }
 
@@ -274,6 +282,10 @@ body {
         float: right;
         display: flex;
         font-size: unset;
+    }
+    .artpost pre {
+        text-align: center;
+        float: initial;
     }
 }
 
