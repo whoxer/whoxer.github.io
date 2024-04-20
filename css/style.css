@@ -16,28 +16,29 @@ body {
 
 /* mobile */
 
-@media screen and (max-width: 650px) and (min-width: 400px) {
+@media screen and (max-width: 720px) and (min-width: 400px) {
     /* cabeçalho para site mobile*/
     .header-blog {
         padding-top: 1%;
         margin-top: 0.5%;
-        text-align: left;
+        text-align: center;
     }
     .title-h {
-        user-select: none;
+        user-select: center;
         text-align: auto;
     }
     .ico-page {
         user-select: none;
-        display: inline;
-        float: inline-start;
+        display: none;
+        float: right;
         margin-right: 1%;
+        margin-bottom: 20;
     }
     .icon-alien {
         border-radius: 20%;
     }
     .title {
-        text-align: left;
+        text-align: center;
         margin: 2%;
     }
     .menu {
@@ -90,6 +91,16 @@ body {
         padding: 3%;
         border-radius: 5%;
         user-select: none;
+    }
+    /* ascii arts */
+    .artleft {
+        font-size: 2.5mm;
+        float: center;
+    }
+    .artright {
+        float: right;
+        display: flex;
+        font-size: unset;
     }
 }
 
@@ -168,6 +179,12 @@ body {
         border-radius: 3%;
         user-select: none;
     }
+    .artleft pre {
+        display: none;
+    }
+    .artright pre {
+        display: none;
+    }
 }
 
 
@@ -182,7 +199,7 @@ body {
     }
     .title-h {
         user-select: none;
-        text-align: auto;
+        text-align: center;
     }
     .ico-page {
         user-select: none;
@@ -241,12 +258,22 @@ body {
         outline-style: outset;
         outline-color: white;
         margin-bottom: 2%;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 25%;
+        margin-right: 25%;
         margin-top: 2%;
-        padding: 1%;
+        padding: 2%;
         border-radius: 2%;
         user-select: none;
+    }
+    .artleft {
+        float: left;
+        display: flex;
+        font-size: 2.5mm;
+    }
+    .artright {
+        float: right;
+        display: flex;
+        font-size: unset;
     }
 }
 
