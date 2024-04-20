@@ -15,7 +15,7 @@ body {
 
 /* mobile */
 
-@media screen and (max-width: 650px) and (min-width: 400px) {
+@media screen and (max-width: 720px) and (min-width: 400px) {
     .header-blog {
         user-select: none;
         padding-top: 1%;
@@ -28,7 +28,7 @@ body {
     }
     .ico-page {
         user-select: none;
-        display: inline;
+        display: none;
         float: inline-start;
         margin-right: 1%;
     }
@@ -188,7 +188,7 @@ body {
         border-radius: 10%;
     }
     .title {
-        text-align: left;
+        text-align: center;
         margin: 2%;
     }
     .menu {

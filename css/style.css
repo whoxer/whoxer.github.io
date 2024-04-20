@@ -98,7 +98,7 @@ body {
         float: center;
     }
     .artright {
-        float: right;
+        float: center;
         display: flex;
         font-size: unset;
     }
