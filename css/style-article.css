@@ -20,11 +20,11 @@ body {
         user-select: none;
         padding-top: 1%;
         margin-top: 0.5%;
-        text-align: left;
+        text-align: center;
     }
     .title-h {
         user-select: none;
-        text-align: auto;
+        text-align: center;
     }
     .ico-page {
         user-select: none;
@@ -36,7 +36,7 @@ body {
         border-radius: 20%;
     }
     .title {
-        text-align: left;
+        text-align: center;
         margin: 2%;
     }
     .menu {
@@ -94,11 +94,11 @@ body {
         user-select: none;
         padding-top: 0%;
         margin-top: 0%;
-        text-align: left;
+        text-align: center;
     }
     .title-h {
         user-select: none;
-        text-align: auto;
+        text-align: center;
     }
     .ico-page {
         user-select: none;
@@ -110,7 +110,7 @@ body {
         border-radius: 10%;
     }
     .title {
-        text-align: left;
+        text-align: center;
         margin: 2%;
     }
     .menu {
@@ -172,11 +172,11 @@ body {
         user-select: none;
         padding-top: 0%;
         margin-top: 0%;
-        text-align: left;
+        text-align: center;
     }
     .title-h {
         user-select: none;
-        text-align: auto;
+        text-align: center;
     }
     .ico-page {
         user-select: none;
