@@ -15,7 +15,7 @@ body {
 
 /* mobile */
 
-@media screen and (max-width: 720px) and (min-width: 400px) {
+@media screen and (max-width: 720px) and (min-width: 100px) {
     .header-blog {
         user-select: none;
         padding-top: 1%;
@@ -88,8 +88,7 @@ body {
 
 
 /* tablet */
-
-@media screen and (max-width: 992px) and (min-width: 768px) {
+@media screen and (max-width: 1328px) and (min-width: 768px){
     .header-blog {
         user-select: none;
         padding-top: 0%;
