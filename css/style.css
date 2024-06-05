@@ -24,8 +24,8 @@
         text-align: center;
     }
     .title-h {
-        user-select: center;
-        text-align: auto;
+        user-select: none;
+        text-align: center;
     }
     .ico-page {
         user-select: none;
