@@ -14,77 +14,82 @@
     /* -------------------- */
 }
 
-/* computer */
-@media screen and (max-width: 2100px) and (min-width: 768px) {
-    .header-blog {
-        /* ---------------- */
-        margin-top: 50px;
-        margin-left: 500px;
-        margin-right: 500px;
-        margin-bottom: 10px;
-        /* ---------------- */
-        padding: 20px;
-        outline-color: whitesmoke;
-        outline-style: groove;
-    }
-    .title {
-        /* --------------------- */
-        text-align: center;
-        /* ---------------------- */
-    }
-    .description {
-        text-align: right;
-        padding-bottom: 10px;
-    }
-    .blog-content {
-        display: inline-flex;
-        padding: 0px;
-        margin-top: 50px;
-
-    }
-    .categories {
-        /* ----------------------- */
-        margin-left: 500px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 10px;
-        /* ---------------------- */
-        outline-color: whitesmoke;
-        outline-style: groove;
-    }
-    .sub-desc-1 {
-        padding-top: 10px;
-    }
-    .option-1 {
-        margin-top: 20px;
-        margin-bottom: 5px;
-        margin-left: 5px;
-        text-align: left;
-        list-style: inside;
-    }
-    .option-1:hover {
-        background-color: white;
-        color: black;
-    }
-    .feed {
-        /* --------------------- */
-        margin-left: 20px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-        /* --------------------  */
-        outline-color: whitesmoke;
-        outline-style: groove;
-    }
-    .option-2 {
-        margin-top: 30px;
-        margin-bottom: 5px;
-        margin-left: 50px;
-        margin-right: 10px;
-        list-style: none;
-    }
-    .option-2:hover {
-        background-color: white;
-        color: black;
-    }
+.header-blog {
+    /* ---------------- */
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 10px;
+    /* ---------------- */
+    padding: 20px;
+    outline-color: whitesmoke;
+    outline-style: groove;
 }
-
+.title {
+    /* --------------------- */
+    text-align: center;
+    /* ---------------------- */
+}
+.description {
+    text-align: right;
+    padding-bottom: 10px;
+}
+.blog-content {
+    display: inline-flex;
+    padding: 0px;
+    margin-top: 50px;
+}
+.categories {
+    /* ----------------------- */
+    margin-left: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    /* ---------------------- */
+    outline-color: whitesmoke;
+    outline-style: groove;
+}
+.sub-desc-1 {
+    padding-top: 10px;
+}
+.option-1 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    text-align: left;
+    list-style: inside;
+}
+.option-1:hover {
+    background-color: white;
+    color: black;
+}
+.feed {
+    /* --------------------- */
+    margin-left: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    /* --------------------  */
+    outline-color: whitesmoke;
+    outline-style: groove;
+}
+.option-2 {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    margin-right: 10px;
+    list-style: none;
+}
+.option-2:hover {
+    background-color: white;
+    color: black;
+}
+.updates {
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 10px;
+    padding: 19px;
+    
+    outline-color: whitesmoke;
+    outline-style: groove;
+}
