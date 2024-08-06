@@ -77,7 +77,16 @@
         padding-right: 20px;
         margin-right: 20px;        /* padding-top: 10px; */
         justify-content: left;
-    }    
+    }
+    .back-button {
+        display: inline;
+    }
+    .button {
+        background-color: black;
+        color: white;
+        outline-color: white;
+        outline-style: double;
+    }
 }
 
 @media screen and (max-width: 800px) and (min-width: 100px) {
@@ -146,5 +155,8 @@
         padding-right: 20px;
         margin-right: 20px;        /* padding-top: 10px; */
         justify-content: left;
-    }    
+    }
+    .back-button {
+        display: none;
+    }
 }
