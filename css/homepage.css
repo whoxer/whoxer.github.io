@@ -42,13 +42,23 @@
     }
     .categories {
         /* ----------------------- */
-        margin-left: 500px;
+        margin-left: 400px;
         padding-left: 30px;
         padding-right: 30px;
         padding-bottom: 10px;
         /* ---------------------- */
         outline-color: whitesmoke;
         outline-style: groove;
+    }
+    .picday {
+        align-content: center;
+        text-align: center;
+        margin-left: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        outline-color: white;
+        outline-style: dotted;
     }
     .sub-desc-1 {
         padding-top: 10px;
@@ -131,6 +141,16 @@
         /* ---------------------- */
         outline-color: whitesmoke;
         outline-style: groove;
+    }
+    .picday {
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        outline-color: white;
+        outline-style: dotted;
     }
     .sub-desc-1 {
         padding-top: 10px;
