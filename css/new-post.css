@@ -24,6 +24,11 @@
    .back-button {
       float: inline-end;
       margin-right: 100px;
+      margin-bottom: 50px;
+   }
+   .citestyle {
+      background-color: gray;
+      color: black;
    }
 }
 
@@ -36,5 +41,9 @@
    }
    .back-button {
          display: none;
+   }
+   .citestyle {
+      background-color: gray;
+      color: black;
    }
 }
