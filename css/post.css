@@ -71,14 +71,16 @@
         text-align: right;
         padding-bottom: 5px;
     }
-       .post {
+    .post {
         text-align: left;
         margin-top: 10px;
         margin-left: 30px;
         margin-right: 30px;
    }
    .back-button {
-         display: none;
+        float: inline-end;
+        margin-right: 50px;
+        margin-bottom: 10px;
    }
    .citestyle {
       background-color: gray;
