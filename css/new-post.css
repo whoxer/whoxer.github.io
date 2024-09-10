@@ -33,7 +33,7 @@
 }
 
 @media screen and (max-width: 800px) and (min-width: 100px) {
-     .post {
+   .post {
         text-align: left;
         margin-top: 10px;
         margin-left: 30px;

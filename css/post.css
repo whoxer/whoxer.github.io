@@ -31,62 +31,21 @@
         text-align: center;
         /* ---------------------- */
     }
-    .description {
-        text-align: right;
-        padding-bottom: 10px;
-    }
-    .blog-content {
-        display: inline-flex;
-        padding: 0px;
-        margin-top: 50px;
-    }
-    .categories {
-        /* ----------------------- */
-        margin-left: 500px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 10px;
-        /* ---------------------- */
-        outline-color: whitesmoke;
-        outline-style: groove;
-    }
-    .sub-desc-1 {
-        padding-top: 10px;
-    }
-    .option-1 {
-        margin-top: 20px;
-        margin-bottom: 5px;
-        margin-left: 5px;
+   .post {
         text-align: left;
-        list-style: inside;
-    }
-    .option-1:hover {
-        background-color: white;
-        color: black;
-    }
-    .post {
-        /* --------------------- */
-        margin-left: 20px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-        /* --------------------  */
-        /* outline-color: whitesmoke;
-        outline-style: groove; */
-    }
-    .content {
-        padding-right: 20px;
-        margin-right: 20px;        /* padding-top: 10px; */
-        justify-content: left;
-    }
-    .back-button {
-        display: inline;
-    }
-    .button {
-        background-color: black;
-        color: white;
-        outline-color: white;
-        outline-style: double;
-    }
+        margin-top: 100px;
+        margin-left: 300px;
+        margin-right: 300px;
+   }
+   .back-button {
+      float: inline-end;
+      margin-right: 100px;
+      margin-bottom: 50px;
+   }
+   .citestyle {
+      background-color: gray;
+      color: black;
+   }
 }
 
 @media screen and (max-width: 800px) and (min-width: 100px) {
@@ -108,55 +67,17 @@
         text-align: right;
         padding-bottom: 5px;
     }
-    .blog-content {
-        display: block;
-        padding: 5px;
-        margin-top: 5px;
-    }
-    .categories {
-        /* ----------------------- */
-        margin-left: 10px;
-        margin-right: 10px;
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        /* ---------------------- */
-        outline-color: whitesmoke;
-        outline-style: groove;
-        display: none;
-    }
-    .sub-desc-1 {
-        padding-top: 10px;
-        text-align: center;
-    }
-    .option-1 {
-        margin-top: 10px;
-        margin-bottom: 20px;
-        margin-left: 10px;
+       .post {
         text-align: left;
-        list-style: inside;
-    }
-    .option-1:hover {
-        background-color: white;
-        color: black;
-    }
-    .post {
-        /* --------------------- */
         margin-top: 10px;
-        margin-left: 10px;
-        margin-bottom: 10px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-        /* --------------------  */
-        /* outline-color: whitesmoke;
-        outline-style: groove; */
-    }
-    .content {
-        padding-right: 20px;
-        margin-right: 20px;        /* padding-top: 10px; */
-        justify-content: left;
-    }
-    .back-button {
-        display: none;
-    }
+        margin-left: 30px;
+        margin-right: 30px;
+   }
+   .back-button {
+         display: none;
+   }
+   .citestyle {
+      background-color: gray;
+      color: black;
+   }
 }
