@@ -141,7 +141,7 @@
     }
     .title {
         /* --------------------- */
-        text-align: left;
+        text-align: center;
         /* ---------------------- */
     }
     .description {
@@ -176,6 +176,19 @@
     }
     .apoia-se-desktop {
         display: none;
+    }
+    .apoia-se-mob {
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        padding: 10px;
+
+        outline-color: whitesmoke;
+        outline-style: dotted;        
+    }
+    .arts-mob {
+        display: inline-flex;
     }
     .sub-desc-1 {
         padding-top: 10px;
