@@ -4,7 +4,7 @@
 
 * {
     /* ------------------- */
-    user-select: none;
+    /* user-select: none; */
     padding: 0;
     margin: 0;
     /*---------------------*/
@@ -59,6 +59,25 @@
         
         outline-color: white;
         outline-style: dotted;
+    }
+    .apoia-se {
+        position: relative;
+
+        margin-top: 50px;
+        margin-left: 350px;
+        margin-right: 400px;
+
+        padding: 20px;
+
+        outline-color: white;
+        outline-style: dotted;
+    }
+    .sub-desc-2 {
+        position: absolute;
+        margin-right: 100px;
+        margin-left: 100px;
+        top: 160px;
+        left: 180px;
     }
     .sub-desc-1 {
         padding-top: 10px;
