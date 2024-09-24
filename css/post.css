@@ -50,6 +50,10 @@
       background-color: gray;
       color: black;
    }
+   .list {
+        padding: 10px;
+        margin: 10px;
+   }
 }
 
 @media screen and (max-width: 800px) and (min-width: 100px) {
@@ -85,5 +89,9 @@
    .citestyle {
       background-color: gray;
       color: black;
+   }
+    .list {
+        padding: 8px;
+        margin: 5px;
    }
 }
