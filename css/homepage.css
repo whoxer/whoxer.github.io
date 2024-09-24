@@ -171,6 +171,9 @@
         outline-color: white;
         outline-style: dotted;
     }
+    .apoia-se {
+        display: none;
+    }
     .sub-desc-1 {
         padding-top: 10px;
         text-align: center;
