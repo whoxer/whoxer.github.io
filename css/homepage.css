@@ -60,7 +60,7 @@
         outline-color: white;
         outline-style: dotted;
     }
-    .apoia-se {
+    .apoia-se-desktop {
         position: relative;
 
         margin-top: 50px;
@@ -71,6 +71,9 @@
 
         outline-color: white;
         outline-style: dotted;
+    }
+    .apoia-se-mob {
+        display: none;
     }
     .sub-desc-2 {
         position: absolute;
@@ -171,7 +174,7 @@
         outline-color: white;
         outline-style: dotted;
     }
-    .apoia-se {
+    .apoia-se-desktop {
         display: none;
     }
     .sub-desc-1 {
