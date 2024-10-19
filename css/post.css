@@ -54,6 +54,18 @@
         padding: 10px;
         margin: 10px;
    }
+   .foto-1 {
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+        align-items: center;
+   }
+    img {
+        max-width:757.5px;
+        max-height:467.5px;
+        width: auto;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 800px) and (min-width: 100px) {
