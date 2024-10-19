@@ -1,0 +1,55 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+* {
+    /* ------------------- */
+    /* user-select: none; */
+    padding: 0;
+    margin: 0;
+    /*---------------------*/
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background-color: black;
+    /* -------------------- */
+}
+
+@media screen and (max-width: 2100px) and (min-width: 768px) {
+    .header-blog {
+        /* ---------------- */
+        margin-top: 50px;
+        margin-left: 500px;
+        margin-right: 500px;
+        margin-bottom: 10px;
+        /* ---------------- */
+        padding: 20px;
+        outline-color: whitesmoke;
+        outline-style: groove;
+    }
+    .title {
+        /* --------------------- */
+        text-align: center;
+        /* ---------------------- */
+    }
+    .description {
+        text-align: right;
+        padding-bottom: 10px;
+    }
+    .foto-1 {
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+        align-items: center;
+   }
+    img {
+        max-width:757.5px;
+        max-height:467.5px;
+        width: auto;
+        height: auto;
+    }
+    .back-button {
+      float: inline-end;
+      margin-right: 100px;
+      margin-bottom: 50px;
+   }
+}
