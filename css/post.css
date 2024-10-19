@@ -106,4 +106,16 @@
         padding: 10px;
         margin: 10px;
    }
+    .foto-1 {
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+        align-items: center;
+   }
+    img {
+        max-width:378.5px;
+        max-height:233.5px;
+        width: auto;
+        height: auto;
+    }
 }
