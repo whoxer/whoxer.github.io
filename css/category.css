@@ -35,17 +35,25 @@
         text-align: right;
         padding-bottom: 10px;
     }
-    .foto-1 {
-        display: flex;
-        display: -webkit-flex;
+    .title-article {
+        text-align: center;
+    }
+    .feed {
+        text-align: center;
         justify-content: center;
-        align-items: center;
-   }
-    img {
-        max-width:757.5px;
-        max-height:467.5px;
-        width: auto;
-        height: auto;
+    }
+    .about {
+        margin-top: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
+        
+
+        padding-left: 500px;
+        padding-right: 500px;
+    }
+    .option-1 {
+        margin-top: 30px;
+        list-style: inside;
     }
     .back-button {
       float: inline-end;
