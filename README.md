@@ -1,3 +1,3 @@
 # [blog] whoxer
 
-![captura de tela da homepage](imgs/captura.png)
+![captura de tela da homepage](https://i.imgur.com/ucGFF65.png)
