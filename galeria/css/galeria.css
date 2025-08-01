@@ -90,6 +90,7 @@
 
 @media only screen and (max-width: 600px) {
     .header-blog {
+	display: none;
         /* ---------------- */
         margin: 10px;
         /* ---------------- */
