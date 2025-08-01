@@ -13,16 +13,89 @@
     background-color: black;
 }
 
+.header-blog {
+    /* ---------------- */
+    margin: 10px;
+    /* ---------------- */
+    padding: 50px;
+    outline-color: whitesmoke;
+    outline-style: groove;
+}
 
-/* extra large devices */
-@media only screen and (min-width: 1200px) {
+.title {
+    /* --------------------- */
+    text-align: center;
+    /* ---------------------- */
+}
+
+.back-button {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+/* gallery section */
+.galeria-section-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    margin-top: 10px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+
+    outline-color: whitesmoke;
+    outline-style: groove;
+}
+.bar-buttons {
+    position: relative;
+    width: 100%;
+    outline-color: whitesmoke;
+    outline-style: groove;
+
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.btn-0 {
+    padding: 4px;
+}
+.btn-1 {
+    padding: 4px;
+}
+.btn-2 {
+    padding: 4px;
+}
+
+.btn-0:hover {
+    background-color: white;
+    color: black;
+}
+.btn-1:hover {
+    background-color: white;
+    color: black;
+}
+.btn-2:hover {
+    background-color: red;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
     .header-blog {
         /* ---------------- */
         margin: 10px;
         /* ---------------- */
         padding: 50px;
         outline-color: whitesmoke;
-        outline-style: groove;
+        outline-style: none;
     }
 
     .title {
@@ -31,15 +104,10 @@
         /* ---------------------- */
     }
 
-    .description {
-        text-align: right;
-        padding-bottom: 5px;
-    }
-
     .back-button {
         position: absolute;
-        right: 10px;
-        bottom: 5px;
+        right: 1px;
+        bottom: 1px;
     }
 
     /* gallery section */
@@ -57,11 +125,12 @@
         right: 0;
         margin-left: auto;
         margin-right: auto;
-        width: 600px;
+        width: 400px;
 
         outline-color: whitesmoke;
         outline-style: groove;
     }
+
     .bar-buttons {
         position: relative;
         width: 100%;
@@ -69,49 +138,33 @@
         outline-style: groove;
 
         display: flex;
-        justify-content: flex-end; 
+        justify-content: flex-end;
     }
 
     .btn-0 {
-        padding: 4px;
+        padding: 2px;
     }
+
     .btn-1 {
-        padding: 4px;
+        padding: 2px;
     }
+
     .btn-2 {
-        padding: 4px;
+        padding: 2px;
     }
 
     .btn-0:hover {
         background-color: white;
         color: black;
     }
+
     .btn-1:hover {
         background-color: white;
         color: black;
     }
+
     .btn-2:hover {
         background-color: red;
         color: white;
     }
-}
-
-/* large devices */
-@media only screen and (min-width: 992px) {
-    
-}
-
-/* medium devices */
-@media only screen and (min-width: 768px) {
-    
-}
-
-/* small devices */
-@media only screen and (min-width: 600px) {
-    
-}
-
-/* extra small devices */
-@media only screen and (max-width: 600px) {
-    
 }
