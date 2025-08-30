@@ -1,110 +1,158 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="[Whoxer] blog">
-    <meta property="og:description" content="um canto escuro da internet :D..">
-    <meta property="og:image" content="https://i.imgur.com/ucGFF65.png">
-    <meta property="og:url" content="whoxer.github.io">
-    <link href="css/homepage.css" rel="stylesheet">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <title>[Whoxer] home</title>
+    <link rel="stylesheet" href="../../css/modules/desktop.css">
+    <link rel="stylesheet" href="../../css/modules/tablets.css">
+    <link rel="stylesheet" href="../../css/modules/smartphones.css">
+    <!-- adicionar metadados de nome, descrição, e etc. -->
+    <title>[whoxer] blog</title>
 </head>
-<body class="background">
-    <!-- header -->
-    <section class="header-blog">
-        <div class="title">
-            <pre>
-                <h6>
-  _    _      _                                            
+
+<body>
+    <!-- cabeçalho -->
+    <div class="header">
+        <pre class="body-ascii-art-desktop">
+  _    _      _
   F L  J J    FJ___      ____     _   _     ____     _ ___  
  J J .. L L  J  __ `.   F __ J   J \ / F   F __ J   J '__ ",
  | |/  \| |  | |--| |  | |--| |   \ ' /   | _____J  | |__|-J
  F   /\   J  F L  J J  F L__J J  .' . `.  F L___--. F L  `-'
-J___//\\___LJ__L  J__LJ\______/FJ__/:\__LJ\______/FJ__L     
+J___//\\___LJ__L  J__LJ\______/FJ__/:\__LJ\______/FJ__L
 |___/  \___||__L  J__| J______F |__/ \__| J______F |__L
-                </h6>
-            </pre>
-        </div>
-        <p class="description">um canto escuro da internet :D ..</p>
-    </section>
-    <!-- end of header -->
+</pre>
+        <p>um canto escuro na internet.. ;)</p>
+    </div>
+    <!-- fim do cabeçalho -->
 
-    <!-- col 1 with categories and other stuff -->
-    <section class="blog-content">
-        <div class="categories">
-            <h4 class="sub-desc-1">Categorias maneiras:</h4>
-            <ul>
-                <a href="categorias/tecnologia.html">
-                    <li class="option-1">Tecnologia</li>
+    <div class="row">
+        <!-- coluna 1 -->
+        <div class="column-1">
+            <!-- categorias -->
+            <div class="categories">
+                <a href="categorias/tecnologia.html" class="link-1">
+                    <li class="item">Tecnologia</li>
                 </a>
-                <a href="categorias/ensaios.html">
-                    <li class="option-1">Ensaios</li>
+                <a href="categorias/ensaios.html" class="link-1">
+                    <li class="item">Ensaios</li>
                 </a>
-                <a href="categorias/poemas.html">
-                    <li class="option-1">Poemas</li>
+                <a href="categorias/poemas.html" class="link-1">
+                    <li class="item">Poemas</li>
                 </a>
-		<a href="categorias/textos.html">
-		    <li class="option-1">Textos</li>
-		</a>
-                <a href="categorias/blablabla.html">
-                    <li class="option-1">Blablabla</li>
+                <a href="categorias/textos.html" class="link-1">
+                    <li class="item">Textos</li>
                 </a>
-            </ul>
-	    <h4 class="sub-desc-1">Miscelânea: </h4>
-	    <ul>
-		<a href="galeria/galeria.html">
-		   <li class="option-1">Galeria virtual</li>
-		</a>
-	    </ul>
+                <a href="categorias/blablabla.html" class="link-1">
+                    <li class="item">Bla-bla-bla</li>
+                </a>
+                <a href="galeria/galeria.html" class="link-1">
+                    <li class="item">Galeria Virtual</li>
+                </a>
+            </div>
+            <!-- fim das categorias -->
         </div>
-        <!-- end of col 1 -->
+        <!-- coluna 2 -->
+        <div class="column-2">
+            <!-- seção contendo postagens recentes -->
+            <div class="feed">
+                <div class="row">
+                    <div class="column-1 display-none">
+                        <pre class="body-ascii-art-desktop">
+   _______________                        |*\_/*|________
+  |  ___________  |     .-.     .-.      ||_/-\_|______  |
+  | |           | |    .****. .****.     | |           | |
+  | |   0   0   | |    .*****.*****.     | |   0   0   | |
+  | |     -     | |     .*********.      | |     -     | |
+  | |   \___/   | |      .*******.       | |   \___/   | |
+  | |___     ___| |       .*****.        | |___________| |
+  |_____|\_/|_____|        .***.         |_______________|
+    _|__|/ \|_|_.............*.............._|________|_
+   / ********** \                          / ********** \
+ /  ************  \                      /  ************  \
+--------------------                    --------------------
+                        </pre>
+                    </div>
+                    <div class="column-2">
+                        <pre class="body-ascii-art-desktop">
+                        __                                                          
+                       /\ \__                                                       
+ _____     ___     ____\ \ ,_\    __       __      __    ___     ____               
+/\ '__`\  / __`\  /',__\\ \ \/  /'__`\   /'_ `\  /'__`\/' _ `\  /',__\              
+\ \ \L\ \/\ \L\ \/\__, `\\ \ \_/\ \L\.\_/\ \L\ \/\  __//\ \/\ \/\__, `\             
+ \ \ ,__/\ \____/\/\____/ \ \__\ \__/.\_\ \____ \ \____\ \_\ \_\/\____/             
+  \ \ \/  \/___/  \/___/   \/__/\/__/\/_/\/___L\ \/____/\/_/\/_/\/___/              
+   \ \_\                                   /\____/                                  
+    \/_/                                   \_/__/           
+                    </pre>
+                    </div>
+                </div>
+                <hr>
+                <a href="ensaios/ensaio-sobre-o-processo.html" class="link-1">
+                    <li class="post">
+                        [ensaio] “O Processo”, Franz KAFKA - O Julgamento Sob as Leis Não
+                        Escritas, O Fascismo e o Autoritarismo [12/08/2025]
+                    </li>
+                </a>
+                <hr>
+                <a href="textos/consulta-na-oftalmologista.html" class="link-1">
+                    <li class="post">
+                        [texto] Consulta na Oftalmologista [19/05/2025]
+                    </li>
+                </a>
+                <hr>
+                <a href="textos/azul.html" class="link-1">
+                    <li class="post">[texto] Azul [17/02/2025]</li>
+                </a>
+                <hr>
+                <a href="textos/ideologia.html" class="link-1">
+                    <li class="post">[texto] Ideologia [24/12/2024]</li>
+                </a>
+                <hr>
+                <a href="ensaios/oyasumi.html" class="link-1">
+                    <li class="post">
+                        [Ensaio] Oyasumii e o medo de crescer [19/10/2024]
+                    </li>
+                </a>
+                <hr>
+                <a href="bla_bla_bla/minha-cabeca-ta-doendo.html" class="link-1">
+                    <li class="post">
+                        [Blablabla] Minha cabeça está doendo [15/10/2024]
+                    </li>
+                </a>
+                <hr>
+                <a href="tecnologia/logica.html" class="link-1">
+                    <li class="post">
+                        [Tecnologia] Lógica de programação e o Condicionamento material dos dados [24/09/2024]
+                    </li>
+                </a>
+            </div>
+            <!-- fim das postagens recentes -->
 
-        <!-- col 2 with the blog posts-->
-        <div id="feed" class="feed">
-            <h3 class="sub-desc-1">Postagens recentes:</h3>
-            <ul>
-                <a href="ensaios/ensaio-sobre-o-processo.html">
-                    <li class="option-2">[ensaio] “O Processo”, Franz KAFKA - O Julgamento Sob as Leis Não
-                    Escritas, O Fascismo e o Autoritarismo [12/08/2025]</li>
-                </a>
-                <a href="textos/consulta-na-oftalmologista.html">
-                    <li class="option-2">[texto] Consulta na Oftalmologista [19/05/2025]</li>
-                </a>
-                <a href="textos/azul.html">
-                    <li class="option-2">[texto] Azul [17/02/2025]</li>
-                </a>
-                <a href="textos/ideologia.html">
-                    <li class="option-2">[texto] Ideologia [24/12/2024]</li>
-                </a>
-                <a href="ensaios/oyasumi.html">
-                    <li class="option-2">[Ensaio] Oyasumii e o medo de crescer [19/10/2024]</li>
-                </a>
-                <a href="bla_bla_bla/minha-cabeca-ta-doendo.html">
-                    <li class="option-2">[Blablabla] Minha cabeça está doendo [15/10/2024]</li>
-                </a>
-                <a href="tecnologia/logica.html">
-                    <li class="option-2">[Tecnologia] Lógica de programação e o Condicionamento material dos dados [24/09/2024]</li>
-                </a>
-            </ul>
         </div>
-        <!-- end of col 2 -->
-         
-        <!-- pic of the month -->
-        <div class="picmonth" id="photos">
-            <h3>Foto do mês de agosto!</h3>
-            <br>
-            <img src="https://i.imgur.com/lEfRFYL.jpg" alt="Bandeira dos Estados Unidos sendo brutalmente moída num moedor de carne" width="220" height="200">
-        </div>
-    </section>
+        <!-- fim das atualizações do blog -->
+    </div>
 
-    <div class="apoia-se-desktop">
-        <pre>        
+    <!-- foto do dia e me ajude eu sou pobre -->
+    <div class="row">
+        <div class="column-1">
+            <div class="picture-m">
+                <h3>Foto do mês de Agosto!</h3>
+                <img src="https://i.imgur.com/lEfRFYL.jpg"
+                    alt="Bandeira dos Estados Unidos sendo moída num moedor de carne"
+                    srcset="https://i.imgur.com/lEfRFYL.jpg" width="220" height="200">
+            </div>
+        </div>
+        <div class="column-2">
+            <div class="help-me">
+                <div class="row">
+                    <div class="column-1">
+                        <pre>
          _nnnn_                      
-        dGGGGMMb     ,"""""""""""""""""""""""""""""""""""""""""""""""""""""".
-       @p~qp~~qMb    | Apoie o meu trabalho! pix: natanaelvsant@gmail.com   |
-       M|@||@) M|   _;......................................................'
+        dGGGGMMb     ,""""""""""""""""""""""".
+       @p~qp~~qMb    | Apoie o meu trabalho! |
+       M|@||@) M|   _;.......................'
        @,----.JM| -'
       JS^\__/  qKL
      dZP        qKRb
@@ -117,35 +165,48 @@ J___//\\___LJ__L  J__LJ\______/FJ__/:\__LJ\______/FJ__L
 _)      \.___.,|     .'
 \____   )MMMMMM|   .'
      `-'       `--' hjm
-        </pre>
-        <p class="sub-desc-2">
-            Eu realmente gosto da internet e gosto de criar coisas nela, contudo é meio desanimador fazer tudo isso 
-            e não receber nenhum ou quase nenhum apoio. Então se você lê as coisas que eu escrevo e quer apoiar este projeto que é 
-            esse lugar na internet, você pode fazer isso tanto compartilhando o que eu posto nas redes quanto contribuindo
-            para o meu pix que é o meu e-mail: natanaelvsant@gmail.com
+</pre>
+                    </div>
+                    <div class="column-2">
+                        <h2>Contribua para uma Web mais humana!</h2>
+                        <p>
+                            Eu realmente gosto da internet e gosto de criar coisas nela, contudo é meio desanimador
+                            fazer tudo isso
+                            e não receber nenhum ou quase nenhum apoio. Então se você lê as coisas que eu escrevo e quer
+                            apoiar este projeto que é
+                            esse lugar na internet, você pode fazer isso tanto compartilhando o que eu posto nas redes
+                            quanto contribuindo
+                            para o meu pix que é o meu e-mail: natanaelvsant@gmail.com
 
-            Com qualquer quantia que você tiver, certamente você estará me apoiando no desenvolvimento desse e
-            muitos outros projetos que virão pela frente!
-        </p>
+                            Com qualquer quantia que você tiver, certamente você estará me apoiando no desenvolvimento
+                            desse e
+                            muitos outros projetos que virão pela frente!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- fim da foto do dia e me ajude eu sou pobre-->
 
-    <div class="apoia-se-mob">
-        <h2>Apoie o meu trabalho! pix: natanaelvsant@gmail.com</h2>
-        <div class="arts-mob">
-        <pre>
- ______________
-||            ||
-||            ||
-||            ||
-||            ||
-||____________||
-|______________|
- \\############\\
-  \\############\\
-   \      ____    \   
-    \_____\___\____\CA15
-        </pre>
-        <pre>
+
+    <div class="row">
+        <div class="column-2">
+            <!-- seção contendo atualizações do blog -->
+            <div class="changelog">
+                <div class="row">
+                    <div class="column-1">
+                        <pre class="body-ascii-art-desktop">
+      _                            _             
+  ___| |__   __ _ _ __   __ _  ___| | ___   __ _ 
+ / __| '_ \ / _` | '_ \ / _` |/ _ \ |/ _ \ / _` |
+| (__| | | | (_| | | | | (_| |  __/ | (_) | (_| |
+ \___|_| |_|\__,_|_| |_|\__, |\___|_|\___/ \__, |
+                        |___/              |___/
+            </pre>
+                    </div>
+                    <div class="column-2">
+                        <pre class="body-ascii-art-desktop display-none">
 b.
 88b
 888b.
@@ -155,86 +216,90 @@ b.
 P" `8.
     `8.   cgmm
      `8
-        </pre>
-        </div>
-        <p>
-            Eu realmente gosto da internet e gosto de criar coisas nela, contudo é meio desanimador fazer tudo isso
-            e não receber nenhum ou quase nenhum apoio. Então se você lê as coisas que eu escrevo e quer apoiar este projeto que
-            é
-            esse lugar na internet, você pode fazer isso tanto compartilhando o que eu posto nas redes quanto contribuindo
-            para o meu pix que é o meu e-mail: natanaelvsant@gmail.com
-        
-            Com qualquer quantia que você tiver, certamente você estará me apoiando no desenvolvimento desse e
-            muitos outros projetos que virão pela frente!
-        </p>
-        
-    </div>
+            </pre>
+                    </div>
+                </div>
+                <hr>
 
-    <section class="updates">
-        <h1 class="updates-titles"># Atualizações do blog</h1>
-        <br>
-        <hr>
-	<br>
-	<h2>* Páginas de categorias consertadas [20/10/2024]</h2>
-	<p>
-	    Muitas modificações foram feitas, agora cada postagem finalmente possui sua própria
-	    página dedicada. Elas estão em suma iguais no momento mas futuramente pretendo torná-las
-	    diferentes umas das outras porque é mais legal assim e torna elas únicas. Não tem muitos posts,
-            porque eu honestamente realmente sou um preguiçoso pra escrever, então as páginas podem parecer meio
-            vazias no começo, mas prometo que é feito de coração.
-	</p>
-        <br>
-        <h2>* Foto do mês [08/08/2024]</h2>
-        <p>
-            Inspirado numa captura de tela de um blog que um dia eu vi num vídeo do youtube, eu resolvi trazer
-            pra cá também a foto do mês!
-        </p>
-        <p>
-            Futuramente pretendo colocar um botão de anexar arquivo para enviar imagens para que vocês 
-            possam ter a sua foto do mês ali também. Quem sabe na próxima não é o seu gatinho?
-        </p>
-        <br>
-        <h2>* Botão voltar e versão para celular [05/08/2024]</h2>
-        <p>
-            Oi, aqui é o nat de novo, passando para informar que agora temos um botão voltar na versão de computador
-            que permite com que vocês voltem para a página principal. Agora este blog tem sua própria versão mobile
-            dentro do novo estilo que eu propus colocar aqui.
-        </p>
-        <br>
-        <h2>* Algumas declarações acerca do site whoxer.github.io [03/08/2024]</h2>
-        <br>
-        <p>
-            Oi, meu nome é nat e eu sou o dono e criador deste lugar na internet.
-            Muitas coisas mudaram desde que eu comecei esse blog e muitas coisas vão mudar,
-            apesar das mudanças eu sigo mantendo a minha 'persona identidade' neste lugar 
-            aonde tudo está conectado.
-        </p>
-        <br>
-        <p>
-            Queria também fazer umas considerações acerca da página, se você verificar os links você verá que alguns deles
-            (a maioria deles), não está funcionando e isso acontece pois este site está em manutenção sem data
-            exata marcada exatamente para quando eu vou consertar tudo. O site em si não quebrou, é só que 
-            embora 'simples', html e css estático puro pode dar muita dor de cabeça e trabalheira para pessoas 
-            como eu que odeiam javascript e não veem sentido em colocar 8529852959 plugins 38928259, pacotes npx
-            e mais 32529523578 frameworks para um site web de um jovem de 18 anos.
-        </p>
-        <br>
-        <p>
-            E eu digo isso com todas as letras, só ~não faz sentido~. Dito isso, apesar da trabalheira que dá html statico 
-            na mão + css puro igual o Slash depois da reabilitação eu sigo com isso nós possívelmente nos veremos em breve.
-            A minha meta é adicionar área de arts ASCII em molduras no html, uma parte dedicada especialmente a foto do mês 
-            que pode ser foto de gatos de amigos meus ou da minha própria gata, ou sei lá, de qualquer coisa maneira 
-            que eu achar por aí. Também pretendo futuramente (e aí com o htmx, se eu entender essa coisa que eu achei bem confuso),
-            implementar um form possibilitando vocês a encaminharem textos para mim publicar no site, seja um poema, uma coisa boba 
-            ou que seja.
-        </p>
-        <br>
-        <p>
-            Outra coisa também é o fato de que por enquanto não tem nenhum arquivo css para dispositivos móveis,
-            eu sei que isso é algo muito ruim pois grande parte do tráfego na internet hoje em dia é feito em celulares,
-            e isso é algo justo, mas como eu disse, este site está em manutenção e ficará assim apenas por enquanto.
-        </p>
-    </section>
-    <!-- nada pra ver aqui -->
+                <div class="changelog-content">
+                    <h2>* Páginas de categorias consertadas [20/10/2024]</h2>
+                    <p>
+                        Muitas modificações foram feitas, agora cada postagem finalmente possui sua própria
+                        página dedicada. Elas estão em suma iguais no momento mas futuramente pretendo torná-las
+                        diferentes umas das outras porque é mais legal assim e torna elas únicas. Não tem muitos posts,
+                        porque eu honestamente realmente sou um preguiçoso pra escrever, então as páginas podem parecer
+                        meio
+                        vazias no começo, mas prometo que é feito de coração.
+                    </p>
+                    <h2>* Foto do mês [08/08/2024]</h2>
+                    <p>
+                        Inspirado numa captura de tela de um blog que um dia eu vi num vídeo do youtube, eu resolvi
+                        trazer
+                        pra cá também a foto do mês!
+                    </p>
+                    <p>
+                        Futuramente pretendo colocar um botão de anexar arquivo para enviar imagens para que vocês
+                        possam ter a sua foto do mês ali também. Quem sabe na próxima não é o seu gatinho?
+                    </p>
+                    <h2>* Botão voltar e versão para celular [05/08/2024]</h2>
+                    <p>
+                        Oi, aqui é o nat de novo, passando para informar que agora temos um botão voltar na versão de
+                        computador
+                        que permite com que vocês voltem para a página principal. Agora este blog tem sua própria versão
+                        mobile
+                        dentro do novo estilo que eu propus colocar aqui.
+                    </p>
+                    <h2>* Algumas declarações acerca do site whoxer.github.io [03/08/2024]</h2>
+                    <p>
+                        Oi, meu nome é nat e eu sou o dono e criador deste lugar na internet.
+                        Muitas coisas mudaram desde que eu comecei esse blog e muitas coisas vão mudar,
+                        apesar das mudanças eu sigo mantendo a minha 'persona identidade' neste lugar
+                        aonde tudo está conectado.
+                    </p>
+                    <p>
+                        Queria também fazer umas considerações acerca da página, se você verificar os links você verá
+                        que alguns deles
+                        (a maioria deles), não está funcionando e isso acontece pois este site está em manutenção sem
+                        data
+                        exata marcada exatamente para quando eu vou consertar tudo. O site em si não quebrou, é só que
+                        embora 'simples', html e css estático puro pode dar muita dor de cabeça e trabalheira para
+                        pessoas
+                        como eu que odeiam javascript e não veem sentido em colocar 8529852959 plugins 38928259, pacotes
+                        npx
+                        e mais 32529523578 frameworks para um site web de um jovem de 18 anos.
+                    </p>
+                    <p>
+                        E eu digo isso com todas as letras, só ~não faz sentido~. Dito isso, apesar da trabalheira que
+                        dá html statico
+                        na mão + css puro igual o Slash depois da reabilitação eu sigo com isso nós possívelmente nos
+                        veremos em breve.
+                        A minha meta é adicionar área de arts ASCII em molduras no html, uma parte dedicada
+                        especialmente a foto do mês
+                        que pode ser foto de gatos de amigos meus ou da minha própria gata, ou sei lá, de qualquer coisa
+                        maneira
+                        que eu achar por aí. Também pretendo futuramente (e aí com o htmx, se eu entender essa coisa que
+                        eu achei bem
+                        confuso),
+                        implementar um form possibilitando vocês a encaminharem textos para mim publicar no site, seja
+                        um poema, uma coisa
+                        boba
+                        ou que seja.
+                    </p>
+                    <p>
+                        Outra coisa também é o fato de que por enquanto não tem nenhum arquivo css para dispositivos
+                        móveis,
+                        eu sei que isso é algo muito ruim pois grande parte do tráfego na internet hoje em dia é feito
+                        em celulares,
+                        e isso é algo justo, mas como eu disse, este site está em manutenção e ficará assim apenas por
+                        enquanto.
+                    </p>
+                </div>
+            </div>
+            <div class="footer">
+                <p>
+                    whoxer->nat • 2023-2025
+                </p>
+            </div>
 </body>
+
 </html>
