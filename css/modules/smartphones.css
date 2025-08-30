@@ -59,10 +59,11 @@
 
   .picture-m {
     margin: 2px;
-    padding: 10px;
-    text-align: justify;
+    padding: 5px;
+    text-align: center;
     outline-color: white;
-    outline-style: groove;
+    align-content: center;
+    outline-style: dotted;
   }
 
   .help-me {
@@ -91,7 +92,7 @@
     width: 100%;
   }
   .body-ascii-art-desktop {
-    font-size: small;
+    font-size: 8px;
   }
   .footer {
     text-align: center;
