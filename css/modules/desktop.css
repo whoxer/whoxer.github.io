@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+
+/* general */
+body {
+  /* margin: auto;
+    padding: auto; */
+  background-color: black;
+  /* background-color: rgb(12, 1, 10); */
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+
+/* misc */
+
+/* uma ideia maluca ai sla */
+/* .body-ascii-art-desktop:hover {
+    background-color: white;
+    outline-style: dotted;
+    outline-color:antiquewhite;
+    color: black;
+} */
+
+@media (min-width: 1300px) {
+  .header {
+    outline-color: white;
+    outline-style: groove;
+    padding: 20px;
+    background-color: black;
+  }
+
+  .categories {
+    padding: 5px;
+    list-style: none;
+  }
+
+  .item {
+    padding: 20px;
+    background-color: black;
+    outline-style: inset;
+    text-decoration-style: none;
+    color: white;
+  }
+
+  .item:hover {
+    background-color: white;
+    outline-style: dotted;
+    outline-color: antiquewhite;
+    text-decoration-style: none;
+    color: black;
+  }
+
+  .feed {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    outline-color: white;
+    outline-style: groove;
+  }
+
+  .link-1 {
+    text-decoration: none;
+    list-style-type: none;
+    text-decoration-style: none;
+    color: white;
+  }
+
+  .post {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .post:hover {
+    background-color: white;
+    outline-style: dotted;
+    outline-color: antiquewhite;
+    color: black;
+  }
+
+  .picture-m {
+    margin: 2px;
+    padding: 10px;
+    text-align: justify;
+    outline-color: white;
+    outline-style: groove;
+  }
+
+  .help-me {
+    margin: 2px;
+    outline-color: white;
+    outline-style: groove;
+  }
+
+  .changelog {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-left: 340px;
+    padding: 10px;
+    outline-color: white;
+    outline-style: groove;
+  }
+
+  .changelog-content {
+    text-align: justify;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  .row {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .column-1 {
+    flex: 20%;
+  }
+
+  .column-2 {
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+    flex: 90%;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
