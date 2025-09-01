@@ -80,7 +80,7 @@ body {
   .picture-m {
     margin: 2px;
     padding: 10px;
-    text-align: justify;
+    text-align: center;
     outline-color: white;
     outline-style: groove;
   }
